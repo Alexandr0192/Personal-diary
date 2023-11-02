@@ -1,0 +1,27 @@
+.dropdown_content {
+    background-color: white;
+    border-radius: 8px;
+    /*box-shadow: 0 1px 0 1px var(--shadow-MyButton);*/
+    border: solid 1px var(--shadow-MyButton);
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+}
+
+.dropdown_menu {
+    margin-top: 20px;
+    width: 14%;
+    right: 406px;
+    position: absolute;
+}
+
+.dropdown_item:hover {
+    cursor: pointer;
+    color: #4683d9;
+}
+
+.dropdown_item {
+    margin-top: 5px;
+}

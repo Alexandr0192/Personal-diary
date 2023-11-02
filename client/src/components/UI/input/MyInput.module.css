@@ -1,0 +1,24 @@
+.myInput {
+    background-color: var(--background-color-search);
+    font-size: 20px;
+    width: 100%;
+    padding: 13px 20px;
+    border: 1px solid var(--border-color-search);
+    border-radius: 4px;
+}
+
+input:active {
+    border-color: var(--border-color-search-active);
+}
+input:focus-visible {
+    border-color: var(--border-color-search-active);
+}
+input:focus {
+    border-color: var(--border-color-search-active);
+}
+
+input::placeholder {
+    color: var(--text-color-search);;
+}
+
+input {outline:none;}

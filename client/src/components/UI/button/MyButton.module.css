@@ -1,0 +1,117 @@
+* {
+    font-family: "Times New Roman", serif;
+}
+
+.myBtn {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: var(--background-color-MyButton);
+    border-radius: 5px;
+    box-shadow: 0 1px 0 1px var(--shadow-MyButton);
+    border: 1px solid var(--background-color-MyButton);
+    color: white;
+}
+
+.myBtn:hover {
+    box-shadow: 0 2px 0 2px var(--shadow-MyButton);
+    border-radius: 10px;
+}
+
+/*Кнопка для открытия формы создания нового поста*/
+.new_post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: var(--background-color-MyButton-new-post);
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.new_post:hover {
+    cursor: pointer;
+    color: #1572C3;
+}
+
+.new_post:focus-visible {
+    outline: 0;
+}
+
+.new_post:hover .img_myBtn_new_post {
+    background-image: url("/public/img/icon-create-data-blue.svg");
+}
+
+.text_myBtn_new_post {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.img_myBtn_new_post {
+    padding-bottom: 2px;
+    width: 24px;
+    height: 24px;
+    background-image: url("/public/img/icon-create-data.svg");
+}
+
+.advanced_search_button {
+    background-color: white;
+    border: 0;
+    display: flex;
+    align-items: center;
+    max-width: 180px;
+    margin-left: 25px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.advanced_search_button:hover {
+    cursor: pointer;
+}
+
+.advanced_search_button_text {
+    font-size: 16px;
+    color: var(--text-color-blue);
+}
+
+.advanced_search_button_img {
+    margin-left: 15px;
+    width: 12px;
+    height: 7px;
+    background-image: url("/public/img/arrow-bottom.svg");
+}
+
+.sort_post {
+    display: flex;
+    align-items: center;
+    border: 0;
+    background: white;
+    padding-right: 25px;
+    margin-bottom: 15px;
+    padding-left: 36px;
+}
+
+.sort_post:hover {
+    color: var(--text-color-blue);
+    cursor: pointer;
+}
+
+.sort_post:focus-visible {
+    outline: 0;
+}
+
+.sort_post:hover .img_myBtn_sort_post {
+    background-image: url("/public/img/icon_sort_blue.svg");
+}
+
+.text_myBtn_sort_post {
+    padding-left: 20px;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.img_myBtn_sort_post {
+    width: 24px;
+    height: 25px;
+}
